@@ -51,3 +51,9 @@
         min-height: 80vh;
     }
 }
+.hero_section_container{
+    display: flex;
+    flex-direction: coloumn;
+    align-items: center;
+    justify-content: center;
+}
