@@ -337,20 +337,74 @@ font-size: 2rem;
 .right .download_app_container h5{
     font-weight: 400;
     color: grey;
+    margin-bottom: 5px;
 
 }
 .right .download_app_container div{
     display: flex;
     gap: 1rem;
+    
 }
 .right .download_app_container div img{
     width: 35%;
 }
 
-/* Media quiress for downloads  */
+/* Media quiress for download app  */
+@media only screen and (max-width: 1300px){
+    .get_the_app .semicontainer .left,
+    .get_the_app .semicontainer .right{
+      
+       flex :1;
+    }
 
+ .get_the_app .semicontainer{
+    width: 80%;
+ }
+}
 
+@media only screen and (max-width: 900px){ 
 
+    .get_the_app{
+        padding: 2rem 0;
+    }
 
+    .get_the_app .semicontainer{
+        width: 95%;
+        flex-direction: column;
+    }
 
+}
 
+.footer_section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width :80%;
+    margin:auto
+}
+
+.footer_section1 img{
+    width: 150px;
+}
+
+.section1_buttoncontainer button {
+    padding: 5px;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+.navigtion_container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 1rem;
+    padding: 3rem 0;
+  }
+  
